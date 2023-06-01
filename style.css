@@ -1,0 +1,27 @@
+body{
+    background-size: 100%;
+}
+
+.btn{
+    background:linear-gradient(#15dcff, #c1eee4, #fff);
+    border: black;
+    /*¿Como aumentar la mdeidad del borde?*/
+}
+
+.head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.nota{
+    font-size: 15px;
+    color: rgb(12, 114, 117);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+canvas{
+    margin-top: 8%;
+    background: linear-gradient(#15dcff, #c1eee4, #fff);
+    box-shadow: 5px 5px 7px;
+}
