@@ -49,7 +49,7 @@ function draw(){
         circle(dere_x, dere_y, 25);
         cancion_1.stop();
 
-        if (!estado_2.isPlaying()){
+        if (!cancion_2.isPlaying()){
             cancion_2.play();
             cancion_2.setVolume(0.5);
             document.getElementById("song_name").innerHTML = "Esta cancion se llama: Never gonna give you up";
