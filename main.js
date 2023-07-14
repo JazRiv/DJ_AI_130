@@ -34,7 +34,7 @@ function draw(){
         circle(izq_x, izq_y, 25);
         cancion_2.stop();
 
-        if (estado_1 == false){
+        if (!cancion_1.isPlaying()){
             cancion_1.play();
             document.getElementById("song_name"). innerHTML = "Esta cancion se llama: As it was";
         }
@@ -48,7 +48,7 @@ function draw(){
         circle(dere_x, dere_y, 25);
         cancion_1.stop();
 
-        if (estado_2 == false){
+        if (!estado_2.isPlaying()){
             cancion_2.play();
             document.getElementById("song_name").innerHTML = "Esta cancion se llama: Never gonna give you up";
         }
